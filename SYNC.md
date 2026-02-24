@@ -2,10 +2,14 @@
 
 ## Remotes
 
-| Remote   | URL                                      | Purpose              |
-|----------|------------------------------------------|----------------------|
-| origin   | https://github.com/stavva-cardone/mcp   | Our fork (deploy)    |
-| upstream | https://github.com/microsoft/mcp        | Microsoft source     |
+| Remote   | URL                                      | Purpose                        |
+|----------|------------------------------------------|--------------------------------|
+| origin   | https://github.com/stavva-cardone/mcp   | Our fork — all PRs go here     |
+| upstream | https://github.com/microsoft/mcp        | Microsoft source — fetch only  |
+
+> **Rule: never push to `upstream` and never open PRs against `microsoft/mcp`.**
+> Push is disabled on the upstream remote: `git remote set-url --push upstream DISABLED`
+> All PRs must target branches within `stavva-cardone/mcp`.
 
 ## Branch Strategy
 
