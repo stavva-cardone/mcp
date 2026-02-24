@@ -26,6 +26,9 @@ generated/
 .vscode/mcp.json
 .vscode/settings.json
 
+# Machine-specific MCP config — copy mcp.json.example → mcp.json locally
+mcp.json
+
 eng/tools/ToolDescriptionEvaluator/prompts.json
 eng/tools/ToolDescriptionEvaluator/results.md
 eng/tools/ToolDescriptionEvaluator/tools.json

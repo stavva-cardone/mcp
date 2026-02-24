@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "Fabric MCP Server": {
+            "command": "/path/to/repo/servers/Fabric.Mcp.Server/src/bin/Release/fabmcp",
+            "args": [
+                "server",
+                "start"
+            ],
+            "type": "stdio"
+        }
+    }
+}
